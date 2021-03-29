@@ -52,7 +52,7 @@ public class MatchGame implements Task {
             JsonObject pageinfo=jsonObject.get("page").getAsJsonObject();
 
             if (list != null) {
-                int coinNumber=10;
+                int coinNumber=5;
                 int contsetId;
                 String contestName;
                 int questionId;
